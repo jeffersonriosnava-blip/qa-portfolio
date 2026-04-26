@@ -1,0 +1,19 @@
+# Bug 001 - Error en login
+
+## Descripción
+El sistema no muestra error al ingresar contraseña incorrecta.
+
+## Pasos para reproducir
+1. Ir a login
+2. Ingresar usuario válido
+3. Ingresar contraseña incorrecta
+4. Presionar login
+
+## Resultado esperado
+Mostrar mensaje de error
+
+## Resultado actual
+No muestra ningún mensaje
+
+## Evidencia
+(ver imagen en carpeta Evidence)
