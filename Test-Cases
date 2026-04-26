@@ -1,1 +1,77 @@
+ID:
+Título:
+Precondiciones:
+Pasos:
+Datos de prueba:
+Resultado esperado:
+Resultado actual:
+Estado:
+# Casos de Prueba - E-commerce
 
+---
+
+## TC-001: Login exitoso
+
+**Precondiciones:**
+Usuario registrado en el sistema
+
+**Pasos:**
+1. Ir a la página de login
+2. Ingresar usuario válido
+3. Ingresar contraseña válida
+4. Hacer clic en "Iniciar sesión"
+
+**Datos de prueba:**
+Usuario: test@test.com  
+Password: 123456
+
+**Resultado esperado:**
+El usuario inicia sesión correctamente y es redirigido al dashboard
+
+**Resultado actual:**
+Funciona correctamente
+
+**Estado:**
+PASSED
+
+---
+
+## TC-002: Login con contraseña incorrecta
+
+**Precondiciones:**
+Usuario registrado
+
+**Pasos:**
+1. Ir a login
+2. Ingresar usuario válido
+3. Ingresar contraseña incorrecta
+4. Hacer clic en login
+
+**Resultado esperado:**
+Mostrar mensaje de error "Contraseña incorrecta"
+
+**Resultado actual:**
+No muestra mensaje
+
+**Estado:**
+FAILED
+
+---
+
+## TC-003: Agregar producto al carrito
+
+**Precondiciones:**
+Usuario en la página principal
+
+**Pasos:**
+1. Seleccionar un producto
+2. Hacer clic en "Agregar al carrito"
+
+**Resultado esperado:**
+Producto agregado correctamente
+
+**Resultado actual:**
+Funciona correctamente
+
+**Estado:**
+PASSED
