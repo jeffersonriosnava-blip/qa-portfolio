@@ -1,0 +1,24 @@
+ID: TC-005  
+Título: Validación de login con email inválido  
+
+Precondiciones:
+Usuario en la página de login  
+
+Pasos:
+1. Ir a la página de login  
+2. Ingresar email sin formato válido (ej: test.com)  
+3. Ingresar contraseña válida  
+4. Hacer clic en "Iniciar sesión"  
+
+Datos de prueba:
+Email: test.com  
+Password: 123456  
+
+Resultado esperado:
+El sistema muestra mensaje de error indicando formato de email inválido  
+
+Resultado actual:
+(completar después de probar)  
+
+Estado:
+(PASSED / FAILED)
