@@ -1,0 +1,23 @@
+ID: BUG-003  
+Título: Login permite campos vacíos  
+
+Severidad: Alta  
+Prioridad: Alta  
+Entorno: Chrome 123 / Windows 10  
+
+Descripción:
+El sistema permite intentar login sin ingresar datos  
+
+Pasos:
+1. Ir a login  
+2. Dejar campos vacíos  
+3. Hacer clic en login  
+
+Resultado esperado:
+Validación obligatoria  
+
+Resultado actual:
+El sistema intenta procesar login  
+
+Evidencia:
+(imagen)
