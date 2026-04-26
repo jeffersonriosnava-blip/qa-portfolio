@@ -14,3 +14,6 @@ Soy QA Manual en formación con experiencia en pruebas funcionales y crowdtestin
 
 ## Objetivo
 Busco mi primera oportunidad como QA Tester.
+herramientas (Chrome, testing manual)
+tipo de testing
+qué incluye el repo
